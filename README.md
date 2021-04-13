@@ -8,7 +8,14 @@ The user language is taken from their profile. Specifically, we're using a custo
 
 ## For DEVS
 
-If a new language is added to Khan Academy, its crowdin code needs to be added into
+### Adding a new language
+
+If a new language is added to Khan Academy, its crowdin language code needs to be added into
 `javascripts/discourse-crowdin-link/lib/languages.js.es6`
 
-As of 7th March 2020, the list should contain all languages found at https://crowdin.com/project/khanacademy, even those that not yet officially started and do not have their Translation Dashboard.
+As of 7th March 2020, the list should contain all languages found at https://crowdin.com/project/khanacademy, even those that have not yet officially started and do not have their Translation Dashboard.
+
+### Testing changes
+
+
+### What if it breaks?
