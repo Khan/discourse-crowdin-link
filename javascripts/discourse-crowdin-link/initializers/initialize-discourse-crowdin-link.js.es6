@@ -3,7 +3,7 @@ import { modifyNode } from '../lib/utilities';
 import { langToCrowdinCode } from '../lib/languages';
 
 export default {
-  name: 'crowdin-links-initializer',
+  name: 'crowdin-links-initializer-test',
   initialize(){
     withPluginApi("0.8.7", api => {
 
@@ -79,7 +79,7 @@ export default {
               modifyNode($elem[0], action, skipTags)
             }
           });
-        }, {'id': "autolocalize-crowdin-links"});
+        }, {'id': "autolocalize-crowdin-links-test"});
 
         // Apply autolinkify to posts that were cooked
         // before we registered this callback
